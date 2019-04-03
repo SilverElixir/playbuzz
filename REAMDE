@@ -1,0 +1,27 @@
+TASK:
+
+Create test that implements the following steps:
+a. Go to ​www.playbuzz.com
+b. Login to platform (you can login either with Facebook/Google or
+create your own user).
+c. Click on Create → Story
+d. Add Flip Card item.
+e. Create a flip card with one side text and the other side image.
+f. Add header with title.
+g. Publish item.
+h. Make sure in published item flip functionality works.
+i. Click on Share to Facebook. Make sure window with Facebook
+side is open.
+
+
+TECHNOLOGIES USED IN FRAMEWORK:
+
+* I decided to use for current project Selenide, not Selenium, since last one has couple of key drawbacks
+(let's say - features): developers need to write some boilerplate code to create/shutdown webdriver,
+to search radio buttons, to wait for javascript interactions, etc. Selenide API is higher-level,
+but it was designed specifically for UI- and Acceptance testing. For mode details - visit link below
+https://github.com/selenide/selenide/wiki/Selenide-vs-Selenium
+
+* Intellj IDEA
+* Maven
+
